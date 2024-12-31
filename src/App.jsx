@@ -17,7 +17,7 @@ import WalletPaymentForm from "./components/WalletPaymentForm";
 // Make sure to call loadStripe outside of a component’s render to avoid
 // recreating the Stripe object on every render.
 // This is your test publishable API key.
-const stripePromise = loadStripe("pk_test_51QCzJ5AoswkFRcg5CnxaQummhuJNZIq04P4B874dcwZA1x3A4V6vUaWIXQTmKMgCx5NB7HQeeDmxQnkQlop2ei7M00pHkIyaDj    ");
+const stripePromise = loadStripe("pk_test_51PqRgCRtqOJfXlLvBLq6EuOriKeqGts9vGXR71oUzilHSzl5QSyldao3NkHroFvyqw5Scd40lDttsWNbQX4deo3900bHvUG0FA");
 //stripe original: pk_test_51QS6LBG01721Sc7ZuMkfur5pvCd5nVzALbSdPXIGbCD8icWoeQAqcPKs2nJUghJcd9DDTBgW7cAL3Vo5mIgHSdV800BXa28xlz
 
 const options = {
